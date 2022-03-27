@@ -1,0 +1,13 @@
+.profileEditor{
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  input{
+    margin: 5px 0;
+    display: block;
+    width: 300px;
+    padding: 10px;
+  }
+}

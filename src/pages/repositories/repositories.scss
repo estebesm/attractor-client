@@ -1,0 +1,44 @@
+.repositories{
+  .repo-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .public{
+      width: 50%;
+      text-align: center;
+      margin-right: 15px;
+    }
+    .private{
+      width: 50%;
+      text-align: center;
+      margin-left: 15px;
+      button{
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .divider{
+      position: absolute;
+      margin: 0 auto;
+      width: 1px;
+      background-color: lightgray;
+      height: 100%;
+    }
+    h2{
+      padding: 0;
+      margin: 0;
+      display: block;
+    }
+    .reposList{
+      text-align: start;
+    }
+  }
+  h1{
+    margin: 5px 0 15px;
+    padding: 0;
+  }
+}

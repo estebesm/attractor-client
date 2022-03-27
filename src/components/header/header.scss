@@ -1,0 +1,22 @@
+.header{
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  color: white;
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      padding: 0;
+      background-color: inherit;
+      color: white;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+}
